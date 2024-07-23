@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-family: "Lexend", sans-serif;
+    font-weight: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: #F1ECE6;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    
+}
+.colorfull{
+    color: #D9862B;
+}
+.form-input{
+   margin-top: 35px;
+   background-color: rgb(132, 132, 21);
+   width: 50%;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+input{
+    height: 40px;
+    border: none;
+    outline: none;
+     width: 80%;
+     border:1px,solid,#D9862B;
+     text-align: left;
+     font-family: "Lexend", sans-serif;
+     padding-left: 20px;
+} 
+input::placeholder{
+    padding-left: 10px;
+}
+form{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+}
+input:focus{
+  border:1px,solid,#D9862B;
+ 
+}
+button{
+    width: 60px;
+    height: 40px;
+    border: none;
+    background-color: #D9862B;
+    color: #ffff;
+    width: 20%;
+    font-family: "Lexend", sans-serif;
+}
+.task-view{
+    background-color: #F1ECE6;
+    width:80%;
+    margin-top: 80px;
+   
+}
+.task{
+    /* background-color: rgb(29, 58, 227); */
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: space-between;
+    background-color: #F1ECE6;
+    margin: 10px;
+    padding: 30px;
+    border-bottom: 1px solid #d9852b3b;
+}
+.task1{
+    color: #ffff;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    outline: none;
+    border: 1px solid #D9862B;
+    background-color: #D9862B;
+}
+
+#task1:checked{
+    background-color: #D9862B;
+}
+.task span{
+    padding-left: 10px;
+   
+}
+.done{
+    color: #130f0a42;
+    text-decoration: line-through;
+}
+.task i{
+    padding-left: 10px;
+    background-color: #D9862B;
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    padding: 10px;
+    
+   
+}
+.tskbody{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-left: 20px;
+}
